@@ -1,60 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="js/vue.js"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
- <div id="app">
 
-     <child>
-         <template slot-scope="props">
-             <h1>{{props.item}}</h1>
-         </template>
-
-
-         对方答复的errwrrwr
-     </child>
- </div>
- <script >
-     //作用域插槽,dfdfdfdf是以<template>开口和结尾
-     //插槽声明使vvxfhfghhfcvxcvxvxc 用gfdgfgfgdsdfdfdfddfsfaflot-scope
-/*     Vue.component('child',{
-         data:function(){
-             return {
-                 list:[1,2,4,5]
-             }
-         },
-         template:' <div>' +
-         '         <ul>' +
-         '             <slot v-for="item of list" :item= item>{{item}}</slot>' +
-         '         </ul>' +
-         '     </div>'
-
-     });
-     var app = new Vue({
-         el:"#app",
-         data:{},
-         methods:{}
-     })*/
-
-   Vue.component('child',{
-       data:function(){
-           return {
-               list:[1,2,5,4,7]
-           }
-       },
-      template:"<div><ul><slot v-for='item in list' :item='item'>{{item}}</slot></ul></div>"
-   });
-
-  var app =new Vue({
-      el:"#app",
-      data:{},
-      methods:{}
-  })
-
- </script>
+1.今天是个好日子
+2.开始进行
 
 </body>
 </html>
